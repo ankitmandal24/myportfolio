@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ankit </title>
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body" id = "profile-wrapper">
+            <img id ="profile-pic" src="{% static 'images/dpp.jpg' %}" alt="my dp">
+            <hr>
+            <h4>Hi I am Ankit Mandal</h4>
+            <p>I love coding, doing research & learning new things </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h4> ABOUT ME </h4>
+            <hr>
+            <p>My name is Ankit Mandal, I live in BHILAI and I completed my higher studies from B.S.P Senior Secondary School Sector-X and I am currently studying in Shri Shankracharya Technical campus and
+               pursuing my B.tech degree in CSE with specialization in Data Analytics.
+              <br>
+              I am experienced in python and also familiar with html, css, javascript and I am currently learning django and C and also little bit familiar with arduino.
+              <br>
+              <br>
+
+
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body">
+            <h4>PROJECTS</h4>
+            <hr>
+            I have created some projects using Python and Arduino <br>
+            1. Email sender using Python <br>
+            2. Port finder using Python <br>
+            3. Path follower using arduino
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body">
+            <h4>INTRESTS</h4>
+            <hr>
+            Apart from being all of these,I enjoy most of my time being outdoors.During my free time i like to graphics editing
+            I create some 3d graphics. I am cricket freak but sometimes i like to watch football.<br>
+
+            When forced indoors, I like to read books. And follow a number of sci-fi and fantasy genre movies and television shows, I am an tech freak, and I spend a large amount of my free time exploring the latest technological advancements.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card card-body" id = "profile-wrapper">
+            <h4>SOCIAL LINKS</h4>
+            <hr>
+            <ul class="sociallinks">
+              <a href="https://www.instagram.com/ankit.mandal24/"><ul><img id="profile-pic" class="social" src="{% static 'images/instagram.jpg' %}"></ul></a>
+              <a href="https://github.com/ankitmandal24/ankitmandal24"><ul><img id="profile-pic" class="social" src="{% static 'images/download.png' %}"></ul></a>
+              <a href="https://www.linkedin.com/in/ankit-mandal-989202154/"><ul><img id="profile-pic" class="social" src="{% static 'images/linkedin-global.png' %}"></ul></a>
+
+
+
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-md-5">
+          <div class="card card-body"></div>
+        </div> -->
+      </div>
+      <br>
+   </div >
+
+  </body>
+</html>
